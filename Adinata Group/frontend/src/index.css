@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary: #2DB1B2;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+    --breakpoint-xs: 30rem;
+    --media
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+/* Scrollbar hanya untuk .scroll-container */
+.scroll-container {
+  scrollbar-width: auto; /* Firefox */
+  scrollbar-color: #2DB1B2 #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #2DB1B2;
+  border-radius: 10px;
+}
+
