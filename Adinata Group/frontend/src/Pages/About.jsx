@@ -32,7 +32,7 @@ const Value = () => {
                 {DataValue.map((value, index) => (
                     <div key={index} className={`w-full lg:w-[1100px] h-auto lg:h-[50px] p-4 flex flex-col md:flex-row items-center border-2 border-primary ${index % 2 === 1 ? "bg-primary" : "bg-white"}`}>
                         <h3 className="text-lg md:text-xl text-black font-semibold p-2">{value.name}</h3>
-                        <span className={`border-r-2 h-full md:h-[47px] ${index % 2 === 1 ? "border-white" : "border-primary"}`}></span>
+                        <span className={`border-r-2 h-full md:h-[47px] pr-2 ${index % 2 === 1 ? "border-white" : "border-primary"}`}></span>
                         <h3 className="text-sm md:text-base text-black font-semibold pl-2">{value.description}</h3>
                     </div>
                 ))}

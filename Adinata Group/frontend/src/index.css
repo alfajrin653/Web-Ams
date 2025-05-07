@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
 
+
+
+
 @theme {
-    --color-primary: #2DB1B2;
-    --color-tahiti: #3ab7bf;
-    --color-bermuda: #78dcca;
-    --breakpoint-xs: 30rem;
-    --media
-  }
+  --color-primary: #2DB1B2;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --breakpoint-xs: 30rem;
+}
 
   html {
     scroll-behavior: smooth;
@@ -32,4 +34,3 @@
   background-color: #2DB1B2;
   border-radius: 10px;
 }
-

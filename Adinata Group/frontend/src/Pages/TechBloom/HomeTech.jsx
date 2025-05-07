@@ -13,7 +13,7 @@ const HomeTech = () => {
         <ExpertsPosition/>
         <SystemDevelopment/>
         <WhatsappButton message={'Halo, saya tertarik dengan product TechBloom!'}/>
-        <DownloadCompro linkUnduh={`https://drive.google.com/uc?export=download&id=1-Rqh-Nenxv34nr32zBEgfK81qC78brU7` } />
+        {/* <DownloadCompro linkUnduh={`https://drive.google.com/uc?export=download&id=1-Rqh-Nenxv34nr32zBEgfK81qC78brU7` } /> */}
         
         </>
     )

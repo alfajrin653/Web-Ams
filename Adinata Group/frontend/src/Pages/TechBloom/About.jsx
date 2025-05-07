@@ -31,7 +31,7 @@ const  About = () => {
     <div className="min-h-screen bg-gray-50 flex flex-col items-center py-12 px-6">
 
 
-      <Header img={techbloom} title={"TechBloom"} desk={"Techbloom provides reliable IT digital solutions to help businesses and organizations meet their needs. We focus on delivering high-quality, easy-to-implement technology services that improve efficiency, drive growth, and support long-term success."}/>
+      <Header img={techbloom} title={"“Breaking Barriers with Digital Change”"} linkUnduh={`https://drive.google.com/uc?export=download&id=1-Rqh-Nenxv34nr32zBEgfK81qC78brU7`} desk={"Techbloom provides reliable IT digital solutions to help businesses and organizations meet their needs. We focus on delivering high-quality, easy-to-implement technology services that improve efficiency, drive growth, and support long-term success."}/>
       <div className="grid md:grid-cols-3 gap-6 mt-6 w-full max-w-4xl">
         {services.map((service, index) => (
           <div key={index} className="flex flex-col justify-center items-center pt-7 ">
@@ -43,11 +43,11 @@ const  About = () => {
             className="bg-white p-6 rounded-2xl shadow-lg flex flex-col items-center text-center border-[4px] border-primary"
           >
             {service.icon}
-            <div className="w-[217px] h-[226px]">
+            <div className="w-[217px] h-[226px] flex flex-col items-center justify-center">
             <p className="text-primary mt-2">{service.description}</p>
             <a href={service.link}>
             <button className="mt-4 text-teal-600 font-semibold border-b-2 border-Primary hover:text-teal-700">
-              Read More →
+              Read More 
             </button>
             </a>
             </div>

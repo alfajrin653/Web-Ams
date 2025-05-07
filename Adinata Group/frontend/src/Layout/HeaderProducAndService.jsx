@@ -1,15 +1,17 @@
+import DownloadCompro from "../Components/DownloadCrompro";
 
 
 
-const Header = ({img, title, desk}) => {
+const Header = ({img, title, desk, linkUnduh}) => {
     return (
       <>
-      <div className="logo w-full flex items-center gap-4 ">
+      <div className="logo w-full flex items-center gap-4 pt-10">
         <img src= {img} alt="logo" className="w-[122px] h-auto" />
         <div className="w-[1000px]">
 
         <h2 className="text-xl font-semibold text-primary italic">
           {title}
+          <DownloadCompro linkUnduh={linkUnduh} />
         </h2>
         </div>
         </div>

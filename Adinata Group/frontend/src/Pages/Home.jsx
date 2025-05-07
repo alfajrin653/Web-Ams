@@ -22,7 +22,7 @@ const Home = () => {
         <ContactSection/>
         <Footer/>
         <WhatsappButton message={'Halo, saya tertarik dengan product Adinata Group !'} />
-        <DownloadCompro linkUnduh={'https://drive.google.com/uc?export=download&id=1-c5pMAvCnMux74q4tXn0twxF4_BG3re_'}/>
+        <DownloadCompro className='fixed flex' linkUnduh={'https://drive.google.com/uc?export=download&id=18O4c24Ct00sG_snumuzB6AIsFQl3tVnk'}/>
         
         </>
     )
