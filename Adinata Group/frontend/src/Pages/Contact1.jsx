@@ -26,7 +26,7 @@ const ContactSection = () => {
               <MdLocationOn className="w-6 h-6" />
             </span>
             <h2 className="mt-4 text-lg font-medium text-gray-800">Office</h2>
-            <p className="mt-2 text-blue-500">JL Jombang Raya No 34, Pd. Pucung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten, ID</p>
+            <p className="mt-2 text-blue-500">JL Jombang Raya No 101, Pd. Pucung, Kec. Pd. Aren, Kota Tangerang Selatan, Banten, ID</p>
           </div>
 
           {/* Phone */}
